@@ -1,4 +1,5 @@
-source :rubygems
+# source :rubygems
+source 'https://rubygems.org'
 
 # PostgreSQL driver
 gem 'pg'
@@ -18,6 +19,8 @@ gem 'rake'
 gem 'shotgun'
 
 group :test do
+  gem 'wirble'
+  gem 'awesome_print'
   gem 'faker'
   gem 'rspec'
 end
